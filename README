@@ -29,7 +29,8 @@ Calculate the timewave from 100 days before zero-point
 with 0.1 minute resolution, at a wave-factor of 2.
 Save the output to a file named timewave.csv
 
-    ./twz-generator 100 0.1 2 > timewave.csv
+    ./twz-generator 100 0.1 2 69 > timewave.csv
+    Days-Before -> Days-After -> Time-Step(mins) -> Time-Wave-Zero-Factor
 
     The timewave.csv file can then be opened in a spreadsheet
     program, such as OpenOffice, and graphed.
